@@ -26,6 +26,22 @@ h2 span{
 h2:hover span:nth-child(1){
     margin-right: 10px;
 }
+h2:hover span:nth-child(1):after{
+    content:"'";
+}
 h2:hover span:nth-child(2){
     margin-left: 40px;
+}
+
+h2:hover span{
+    color:#fff; 
+    text-shadow: 0 0 10px #fff,
+                 0 0 10px #fff,
+                 0 0 10px #fff
+                 0 0 10px #fff
+                 0 0 10px #fff
+                 
+
+
+
 }
